@@ -2,10 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Warcaby</title>
+    <link href="warcaby.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <p> Randomowy tekst</p>
+
+<div class="welcome-screen">
+    <p class="modal-title"><img src="kotek-warcaby.png" alt="warcaby" width="300" height="300"> Zagraj w warcaty! <img src="warcaby.jpg" alt="warcaby" width="300" height="200"></p>
+    <p class="modal-brand-name">Podaj swoją nazwę</p>
+    <div><input type="text" id="myInput1" placeholder="Nazwa Kociaka 1..."/></div>
+    <div><input type="text" id="myInput2" placeholder="Nazwa Kociaka 2..."/></div>
+    <div id="start-game" class="btn" onclick="printDuration()">ZACZNIJ GRĘ</div>
+</div>
+
+
+<div id="board">
+</div>
+
+<div class="score">
+    <ul id="ulOne">
+        Kociak 1
+    </ul>
+    <div id="PunktJeden">0 kocimiętek</div>
+    <ul id="ulTwo">
+        Kociak 2
+    </ul>
+    <div id="PunktDrugi">0 kocimiętek</div><br>
+
+
+    <div id="timer">0 sekund</div>
+    <div id="finish-screen" class="btn-last">ZAKOŃCZ GRĘ</div>
+</div>
+
+<div class="last-screen-hide">
+
+    <p class="modal-title"> <img src="sad-hamster.png" alt="smutny-chomik" width="300" height="300">  Koniec gry <img src="cat-trophy.png  " alt="kot-zwycięsca" width="350" height="350"></p>
+    <p class="modal-brand-name">Zwycięzca...</p>
+    <div id="reset-game" class="reset-btn">NOWA GRA</div>
+</div>
+</div>
+
+
+
+<script src="warcaby.js"></script>
+<script src="utils.js"></script>
 </body>
 </html>
