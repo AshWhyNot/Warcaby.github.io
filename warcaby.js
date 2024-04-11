@@ -31,7 +31,7 @@ function createBoard() {
           }
           else {
             img.id = "b" + cell.id;
-            img.src = "Picsart_24-04-11_16-14-32-339.png";
+            img.src = "Picsart_24-04-11_16-42-59-773.png";
           }
           img.className = "pawn";
           img.setAttribute("move", "true");
