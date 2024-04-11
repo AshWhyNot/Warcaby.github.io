@@ -106,12 +106,12 @@ body,html {
 }
 
 .pawn {
-    margin-left: 1px;
-    margin-top: 1px;
+    margin-left: 4px;
+    margin-top: 4px;
     display:flex;
     flex-flow: wrap;
-    height: 5px;
-    weight: 5px;
+    height: 15px;
+    weight: 15px;
 }
 
 .score {
