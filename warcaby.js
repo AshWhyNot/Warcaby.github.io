@@ -27,7 +27,7 @@ function createBoard() {
           var img = document.createElement("img");
           if (y < 5) {
             img.id = "w" + cell.id;
-            img.src = "Picsart_24-04-11_14-06-42-162.png";
+            img.src = "Picsart_24-04-11_16-12-53-338.png";
           }
           else {
             img.id = "b" + cell.id;
