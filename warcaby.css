@@ -110,6 +110,8 @@ body {
     margin-top: 1px;
     display:flex;
     flex-flow: wrap;
+    height: 5px;
+    weight: 5px;
 }
 
 .score {
@@ -188,8 +190,4 @@ font-size: 60px;
     color: white;
     transition: color 0.4s;
     border: none;
-}
-img.Picsart_24-04-11_14-07-26-900.png {
-    height: 30px;
-    weight: 30px;
 }
