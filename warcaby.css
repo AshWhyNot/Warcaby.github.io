@@ -110,8 +110,8 @@ body,html {
     margin-top: 4px;
     display:flex;
     flex-flow: wrap;
-    height: 15px;
-    weight: 15px;
+    height: 50px;
+    weight:50px;
 }
 
 .score {
