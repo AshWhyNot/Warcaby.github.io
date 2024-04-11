@@ -27,11 +27,11 @@ function createBoard() {
           var img = document.createElement("img");
           if (y < 5) {
             img.id = "w" + cell.id;
-            img.src = "bialy.jpg";
+            img.src = "Picsart_24-04-11_14-06-42-162.png";
           }
           else {
             img.id = "b" + cell.id;
-            img.src = "czarny.jpg";
+            img.src = "Picsart_24-04-11_14-04-35-663.png";
           }
           img.className = "pawn";
           img.setAttribute("move", "true");
@@ -230,14 +230,14 @@ function createBoard() {
     // White King
     if (pawn.id.substr(0, 1) === "w" && pawn.id.substr(2, 1) === "9") {
       newPawn = document.createElement("img");
-      newPawn.src = "bialyd.jpg";
+      newPawn.src = "Picsart_24-04-11_14-07-26-900.png";
       newPawn.id = "W" + pawn.id.substr(1, 2);
     }
   
     // Black King
     if (pawn.id.substr(0, 1) === "b" && pawn.id.substr(2, 1) === "0") {
       var newPawn = document.createElement("img");
-      newPawn.src = "czarnyd.jpg";
+      newPawn.src = "Picsart_24-04-11_14-05-47-290.png";
       newPawn.id = "B" + pawn.id.substr(1, 2);
     }
   
