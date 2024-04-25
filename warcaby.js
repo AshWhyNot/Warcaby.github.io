@@ -230,14 +230,14 @@ function createBoard() {
     // White King
     if (pawn.id.substr(0, 1) === "w" && pawn.id.substr(2, 1) === "9") {
       newPawn = document.createElement("img");
-      newPawn.src = "Picsart_24-04-11_14-07-26-900.png";
+      newPawn.src = "Picsart_24-04-11_16-11-32-639.png";
       newPawn.id = "W" + pawn.id.substr(1, 2);
     }
   
     // Black King
     if (pawn.id.substr(0, 1) === "b" && pawn.id.substr(2, 1) === "0") {
       var newPawn = document.createElement("img");
-      newPawn.src = "Picsart_24-04-11_14-05-47-290.png";
+      newPawn.src = "Picsart_24-04-11_16-15-43-219.png";
       newPawn.id = "B" + pawn.id.substr(1, 2);
     }
   
